@@ -12,7 +12,7 @@
             "WARN": "Warn"
         },
         "_plugin": {
-            "INSTALL_DESC": "Install external plugins.",
+            "INSTALL_DESC": "Install external plug.",
             "NEED_URL": "Please enter a URL! Example:",
             "INVALID_URL": "```Please enter a valid url!```",
             "INVALID_PLUGIN": "*❌ Your plugin is invalid!*\n*Error:*",
