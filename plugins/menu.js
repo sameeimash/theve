@@ -22,11 +22,11 @@ Asena.addCommand({pattern: 'help', fromMe: false, desc: Lang.WP}, (async (messag
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `⛦━━━🤖DATA THIEVES BOT🤖━━━━━⛦
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `⛦━━━🤖DATA THIEVES🤖━━━━━⛦
 
 
 Hi This is DATA THIEVES Bot this is my commands
-==========POWERD BY==RAVANA(.)============
+=======POWERD BY==RAVANA(.)========
 💠💠💠💠💠💠💠💠💠💠💠💠
 💥 *𝙈𝙚𝙙𝙞𝙖 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* 💥
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .song <පෙළow>
