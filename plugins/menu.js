@@ -26,7 +26,7 @@ Asena.addCommand({pattern: 'help', fromMe: false, desc: Lang.WP}, (async (messag
 
 
 Hi This is DATA THIEVES Bot this is my commands
-=======POWERD BY==RAVANA(.)========
+🤖🤖🤖🤖🤖🤖🤖🤖🤖🤖🤖🤖
 💠💠💠💠💠💠💠💠💠💠💠💠
 💥 *𝙈𝙚𝙙𝙞𝙖 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* 💥
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .song <පෙළow>
@@ -104,7 +104,7 @@ Hi This is DATA THIEVES Bot this is my commands
 💢Logo  Commands💢
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .txttiomg
 🔹𝙐𝙨𝙚➜ Logo ලාංඡන විධාන ලබා ගන්න
-🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rpack
+🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .tpack
 🔹𝙐𝙨𝙚➜ Logo ලාංඡන විධාන ලබා ගන්න
 ═════💢DATA THIEVES💢═════
 🟦🟨🟩🟦🟨🟩🟦🟨🟩🟦🟨🟩
