@@ -1,4 +1,4 @@
-/* # Exclusively from RAVANA
+/* # Exclusively from DATA THIEVES
 */
 
 const Asena = require('../events');
@@ -10,26 +10,26 @@ const need = "type some word after command\n🗡🗡"
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'rcc2 ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Asena.addCommand({ pattern: 'tcc2 ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
         var ttinullimage = await axios.get(`https://videfikri.com/api/textmaker/coffeecup2/?text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by RAVANA*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by DATA THIEVES*' })
 
     }));
 }
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'rcc2 ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({ pattern: 'tcc2 ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
         var ttinullimage = await axios.get(`https://videfikri.com/api/textmaker/coffeecup2/?text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by RAVANA*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by DATA THIEVES*' })
 
     }));
     
