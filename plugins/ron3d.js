@@ -1,5 +1,5 @@
   /* # Exclusively MsJessica
-    # @lasiya99X t.me/lasiya99X
+    # DATA THIEVES
 */
 
 const Asena = require('../events');
@@ -12,26 +12,26 @@ const lol = "need some word\n🗡🗡"
 
     if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'ron3d ?(.*)', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({ pattern: 'ton3d ?(.*)', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/neon?text1=MsJessica&text2=${encodeURIComponent(match[1])}&text3=on`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by RAVANA*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by DATA THIEVES*' })
 
     }));
 }
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'ron3d ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({ pattern: 'ton3d ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/neon?text1=MsJessica&text2=${encodeURIComponent(match[1])}&text3=on`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by RAVANA*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by DATA THIEVES*' })
 
     }));
     
