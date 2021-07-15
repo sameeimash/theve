@@ -1,4 +1,4 @@
-/* # Exclusively from THIEVES
+/* # Exclusively from DATA THIEVES
 */
 
 const Asena = require('../events');
@@ -29,8 +29,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://videfikri.com/api/textmaker/hpotter/?text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by THIEVES*' })
-
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by DATA THIEVES*' })
     }));
     
 }
