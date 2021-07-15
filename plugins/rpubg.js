@@ -10,26 +10,26 @@ const need = "type some word after command\n🗡🗡"
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'rpubg ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Asena.addCommand({ pattern: 'tpubg ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
-        var ttinullimage = await axios.get(`https://api.zeks.xyz/api/pubglogo?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text1=RAVANA%20SL&text2=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://api.zeks.xyz/api/pubglogo?apikey=5OL4ma89DDedVKW59XEXIKivsII&text1=RAVANA%20SL&text2=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by RAVANA*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by DATA THIEVES*' })
 
     }));
 }
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'rpubg ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({ pattern: 'tpubg ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
-        var ttinullimage = await axios.get(`https://api.zeks.xyz/api/pubglogo?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text1=RAVANA%20SL&text2=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://api.zeks.xyz/api/pubglogo?apikey=5OL4ma89DDedVKW59XEXIKivsII&text1=RAVANA%20SL&text2=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by RAVANA*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by DATA THIEVES*' })
 
     }));
     
