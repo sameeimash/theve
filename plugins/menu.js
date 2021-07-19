@@ -25,9 +25,9 @@ Asena.addCommand({pattern: 'help', fromMe: false, desc: Lang.WP}, (async (messag
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `⛦━━━🤖DATA THIEVES🤖━━━━━⛦
 
 
-Hi This is DATA THIEVES Bot this is my commands
-🤖🤖🤖🤖🤖🤖🤖🤖🤖🤖🤖🤖
-💠💠💠💠💠💠💠💠💠💠💠💠
+   BOT COMMANDS LIST
+🤖🤖🤖🤖🤖🤖🤖🤖🤖
+💠💠💠💠💠💠💠💠💠
 💥 *𝙈𝙚𝙙𝙞𝙖 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* 💥
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .song <පෙළow>
 🔹𝙐𝙨𝙚➜ ඔබ වෙනුවෙන් ගීතය බාගත කරයි..
