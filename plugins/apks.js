@@ -254,8 +254,8 @@ Asena.addCommand({pattern: 'capcut', fromMe: false, dontAddCommandList: true}, (
       await message.sendMessage('💎 *EXPRESS VPN* 💎\npremium unlocked.\n📌 bit.ly/drkXpress');
    }));
 
-   Asena.addCommand({pattern: 'hshield', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-      await message.sendMessage('💎 *HOSPOT SHIELD VPN* 💎\npremium unlocked.\n📌 bit.ly/drkHShield');
+   Asena.addCommand({pattern: 'http', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+      await message.sendMessage('💎 *HTTP INJECTOR* 💎\npremium unlocked.\n📌 https://m.apkpure.com/http-injector-ssh-proxy-v2ray-vpn/com.evozi.injector/download');
    }));
 
    Asena.addCommand({pattern: 'avguard', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
