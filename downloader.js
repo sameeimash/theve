@@ -59,7 +59,7 @@ Asena.addCommand({ pattern: 'fb ?(.*)', fromMe: false, desc: FBDESC }, async (me
     await message.sendMessage(infoMessage(LOADING))
 
     await axios
-      .get(`https://videfikri.com/api/fbdl/?urlfb=${userName}`)
+      .get(`https://facebook-video-downloader-mp4.p.rapidapi.com/facebook-video-downloader-api?urlfb=${userName}`)
       .then(async (response) => {
         const {
           url,
