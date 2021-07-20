@@ -21,8 +21,8 @@ if (Config.WORKTYPE == 'private') {
         )
    }));
 
-   Asena.addCommand({pattern: 'nova', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-      await message.sendMessage('💎 *NOVA LAUNCHER* 💎\npremium unlocked .\n📌 bit.ly/drknova');
+   Asena.addCommand({pattern: 'httpinjector', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+      await message.sendMessage('💎 *HTTP INJECTOR* 💎\npremium unlocked .\n📌 https://m.apkpure.com/http-injector-ssh-proxy-v2ray-vpn/com.evozi.injector/download');
    }));
 
    Asena.addCommand({pattern: 'cml', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
